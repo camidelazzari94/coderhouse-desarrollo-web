@@ -44,6 +44,17 @@ li {
     
 }
 
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+li:hover {
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
 
 a {
     text-decoration: none;
@@ -76,7 +87,16 @@ a {
     border-radius: 10px;
     animation-name: boton;
     animation-duration: 2s;
+}
 
+@keyframes boton {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 
 
